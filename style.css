@@ -475,6 +475,12 @@ section .title::after {
     width: 95%;
 }
 
+.skills-content .right .mongodb::before {
+    width: 95%;
+}
+.skills-content .right .mysql::before {
+    width: 95%;
+}
 
 /* teams section styling */
 
