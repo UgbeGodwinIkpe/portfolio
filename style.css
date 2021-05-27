@@ -452,7 +452,7 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 95%;
+    width: 98%;
 }
 
 .skills-content .right .css::before {
@@ -460,19 +460,19 @@ section .title::after {
 }
 
 .skills-content .right .Boostrap::before {
-    width: 94%;
+    width: 98%;
 }
 
 .skills-content .right .js::before {
-    width: 85%;
+    width: 93%;
 }
 
 .skills-content .right .jq::before {
-    width: 79%;
+    width: 93%;
 }
 
 .skills-content .right .react::before {
-    width: 5%;
+    width: 95%;
 }
 
 
