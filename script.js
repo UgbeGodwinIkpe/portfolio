@@ -44,14 +44,14 @@ $(document).ready(function() {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["I'm a Front-End Developer"],
+        strings: ["I'm a Full-stack Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["I'm a Front-End Developer"],
+        strings: ["I'm a Full-stack Developer"],
         typeSpeed: 50,
         backSpeed: 80,
         loop: true
