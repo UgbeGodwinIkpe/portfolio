@@ -211,7 +211,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("background.jpg") no-repeat center;
+    background: url("images/background.jpg") no-repeat center;
     height: 100vh;
     color: seashell;
     min-height: 500px;
@@ -478,9 +478,11 @@ section .title::after {
 .skills-content .right .mongodb::before {
     width: 95%;
 }
+
 .skills-content .right .mysql::before {
     width: 95%;
 }
+
 
 /* teams section styling */
 
