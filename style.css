@@ -452,27 +452,27 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 95%;
+    width: 98%;
 }
 
 .skills-content .right .css::before {
-    width: 90%;
+    width: 95%;
 }
 
 .skills-content .right .Boostrap::before {
-    width: 94%;
+    width: 99%;
 }
 
 .skills-content .right .js::before {
-    width: 85%;
+    width: 90%;
 }
 
 .skills-content .right .jq::before {
-    width: 79%;
+    width: 90%;
 }
 
-.skills-content .right .react::before {
-    width: 5%;
+.skills-content .right .nodejs::before {
+    width: 98%;
 }
 
 
