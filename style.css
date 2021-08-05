@@ -460,7 +460,6 @@ section .title::after {
 }
 
 .skills-content .right .Boostrap::before {
-<<<<<<< HEAD
     width: 99%;
 }
 
@@ -474,7 +473,6 @@ section .title::after {
 
 .skills-content .right .nodejs::before {
     width: 98%;
-=======
     width: 98%;
 }
 
@@ -496,7 +494,6 @@ section .title::after {
 
 .skills-content .right .mysql::before {
     width: 95%;
->>>>>>> d2b9d9633c4d80178416718a5783f9541d473361
 }
 
 
