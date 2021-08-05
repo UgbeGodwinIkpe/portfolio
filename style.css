@@ -211,7 +211,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("background.jpg") no-repeat center;
+    background: url("images/background.jpg") no-repeat center;
     height: 100vh;
     color: seashell;
     min-height: 500px;
@@ -460,6 +460,7 @@ section .title::after {
 }
 
 .skills-content .right .Boostrap::before {
+<<<<<<< HEAD
     width: 99%;
 }
 
@@ -473,6 +474,29 @@ section .title::after {
 
 .skills-content .right .nodejs::before {
     width: 98%;
+=======
+    width: 98%;
+}
+
+.skills-content .right .js::before {
+    width: 93%;
+}
+
+.skills-content .right .jq::before {
+    width: 93%;
+}
+
+.skills-content .right .react::before {
+    width: 95%;
+}
+
+.skills-content .right .mongodb::before {
+    width: 95%;
+}
+
+.skills-content .right .mysql::before {
+    width: 95%;
+>>>>>>> d2b9d9633c4d80178416718a5783f9541d473361
 }
 
 

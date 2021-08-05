@@ -31,6 +31,7 @@ $('.scroll-up-btn').click(function() {
     $('html').css("scrollBehavior", "auto");
 });
 
+<<<<<<< HEAD
 $('.navbar .menu li a').click(function() {
     // applying again smooth scroll on menu items click
     $('html').css("scrollBehavior", "smooth");
@@ -41,6 +42,22 @@ $('.menu-btn').click(function() {
     $('.navbar .menu').toggleClass("active");
     $('.menu-btn i').toggleClass("active");
 });
+=======
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["I'm a Full-stack Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["I'm a Full-stack Developer"],
+        typeSpeed: 50,
+        backSpeed: 80,
+        loop: true
+    });
+>>>>>>> d2b9d9633c4d80178416718a5783f9541d473361
 
 // typing text animation script
 var typed = new Typed(".typing", {
@@ -84,5 +101,10 @@ $('.carousel').owlCarousel({
             items: 3,
             nav: false
         }
+<<<<<<< HEAD
     }
 });
+=======
+    });
+});
+>>>>>>> d2b9d9633c4d80178416718a5783f9541d473361
