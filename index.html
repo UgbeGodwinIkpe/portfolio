@@ -324,7 +324,7 @@
             </div>
             <div class="column right">
                 <div class="text">Message me<i class="fas fa-arrow-down"></i></div>
-                <form method="POST" action="mailto:ugbegodwin7963@gmail.com">
+                <form method="POST">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Name" required>
@@ -354,15 +354,30 @@
             </p>
         </div>
     </div>
+    <?php
 
 
-    <!-- footer section start -->
-    <footer>
-        <span>Power by<a href="#"> Godwin Ikpe Ugbe @ Nugi-Tech</a>
+if($_POST["message"]) {
+
+
+mail("ugbegodwin7963@gmail.com", "Subject",
+
+
+$_POST["copy of the email message"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+        <!-- footer section start -->
+        <footer>
+            <span>Power by<a href="#"> Godwin Ikpe Ugbe @ Nugi-Tech</a>
             <!--| <span class="far fa-copyright"></span> 2021 All rights reserved.</span> -->
 
-        <span>| <i class="far fa-copyright"></i> 2021 All rights reserved.</span>
-    </footer>
+            <span>| <i class="far fa-copyright"></i> 2021 All rights reserved.</span>
+        </footer>
 </body>
 
 </html>
